@@ -49,7 +49,7 @@ const SKILLS_RIGHT = [
 
 const PROJECTS = [
   {
-    img: "/images/project-ecommerce.jpg",
+   img: `${import.meta.env.BASE_URL}images/project-ecommerce.jpg`,
     title: "E-Commerce Platform",
     desc: "Full-featured online store with cart, checkout, payment gateway, admin panel and order management. Built with React + Node.js + MongoDB.",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
@@ -675,7 +675,7 @@ export default function App() {
       {/* SERVICES */}
       <section id="services" style={{ background: "var(--bg2)" }}>
         <div className="section-wrap">
-          <p className="section-label reveal">// SERVICES</p>
+          <p className="section-label reveal"></p>
           <h2 className="section-title reveal">What I <span>Build</span></h2>
           <div className="section-line reveal" />
 
@@ -696,7 +696,7 @@ export default function App() {
       {/* SKILLS */}
       <section id="skills">
         <div className="section-wrap">
-          <p className="section-label reveal">// TECH STACK</p>
+          <p className="section-label reveal"></p>
           <h2 className="section-title reveal">My <span>Arsenal</span></h2>
           <div className="section-line reveal" />
 
@@ -744,7 +744,7 @@ export default function App() {
       {/* PROJECTS */}
       <section id="projects" style={{ background: "var(--bg2)" }}>
         <div className="section-wrap">
-          <p className="section-label reveal">// PORTFOLIO</p>
+          <p className="section-label reveal"></p>
           <h2 className="section-title reveal">Featured <span>Projects</span></h2>
           <div className="section-line reveal" />
 
@@ -780,7 +780,7 @@ export default function App() {
       {/* CONTACT */}
       <section id="contact">
         <div className="section-wrap">
-          <p className="section-label reveal">// CONTACT</p>
+          <p className="section-label reveal"></p>
           <h2 className="section-title reveal">Let's <span>Build Together</span></h2>
           <div className="section-line reveal" />
 
